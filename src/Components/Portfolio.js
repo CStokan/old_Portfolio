@@ -1,5 +1,7 @@
 import React from "react";
 
+// This is the Portfolio component
+// It takes the data passed to it and shows projects that I've worked on
 const Portfolio = ({ data }) => {
   if (data) {
     var projects = data.projects.map(function (projects) {
