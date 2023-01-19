@@ -6,10 +6,16 @@
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.0",
+<<<<<<< HEAD
     "react": "^17.0.1",
     "react-circular-progressbar": "^2.1.0",
     "react-dom": "^17.0.1",
+=======
+    "react": "^18.0.2",
+    "react-dom": "^18.0.2",
+>>>>>>> f869b123d716689b2e2502cb0dbd5f84fb3b7eb8
     "react-scripts": "4.0.1",
+    "react-simple-typewriter": "^5.0.1",
     "react-typewriter": "^0.4.1",
     "scramblejs": "^1.0.5",
     "web-vitals": "^0.2.4"

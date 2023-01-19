@@ -50,7 +50,11 @@
     "skills": [
       {
         "name": "ReactJs",
+<<<<<<< HEAD
         "level": "75"
+=======
+        "level": "75%"
+>>>>>>> f869b123d716689b2e2502cb0dbd5f84fb3b7eb8
       },
       {
         "name": "Python",
@@ -62,6 +66,7 @@
       },
       {
         "name": "JavaScript",
+<<<<<<< HEAD
         "level": "85"
       },
       {
@@ -87,6 +92,13 @@
       {
         "name": "Web Development",
         "level": "80"
+=======
+        "level": "85%"
+      },
+      {
+        "name": "Web Development",
+        "level": "80%"
+>>>>>>> f869b123d716689b2e2502cb0dbd5f84fb3b7eb8
       }
       
     ]
