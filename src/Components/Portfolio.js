@@ -1,5 +1,9 @@
 import React from "react";
+import { CircularProgressbarWithChildren } from "react-circular-progressbar";
+import 'react-circular-progressbar/dist/styles.css';
 
+// This is the Portfolio component
+// It takes the data passed to it and shows projects that I've worked on
 const Portfolio = ({ data }) => {
   if (data) {
     var projects = data.projects.map(function (projects) {
@@ -29,7 +33,7 @@ const Portfolio = ({ data }) => {
     <section id="portfolio">
       <div className="row">
         <div className="twelve columns collapsed">
-          <h1>Check Out Some of My Works.</h1>
+          <h1>Some projects I have worked on.</h1>
 
           <div
             id="portfolio-wrapper"

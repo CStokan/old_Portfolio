@@ -1,4 +1,6 @@
 import React from "react";
+import { CircularProgressbar, CircularProgressbarWithChildren } from "react-circular-progressbar";
+import 'react-circular-progressbar/dist/styles.css';
 
 const Resume = ({ data }) => {
   if (data) {
@@ -25,15 +27,23 @@ const Resume = ({ data }) => {
           </p>
           <p>{work.description}</p>
         </div>
+        
       );
     });
     var skills = data.skills.map(function (skills) {
       var className = "bar-expand " + skills.name.toLowerCase();
       return (
-        <li key={skills.name}>
-          <span style={{ width: skills.level }} className={className}></span>
-          <em>{skills.name}</em>
-        </li>
+        
+          <div style={{width:200, height:200}} className="columns skils-item">
+            <div className="item-wrap ">
+            <CircularProgressbarWithChildren value={skills.level}>
+              {/* Put any JSX content in here that you'd like. It'll be vertically and horizonally centered. */}
+                <strong>{skills.level}%</strong> {skills.name}
+            </CircularProgressbarWithChildren>
+            </div>
+          </div>
+        
+        
       );
     });
   }
@@ -70,12 +80,14 @@ const Resume = ({ data }) => {
             <span>Skills</span>
           </h1>
         </div>
-
-        <div className="nine columns main-col">
-          <p>{skillmessage}</p>
-
-          <div className="bars">
-            <ul className="skills">{skills}</ul>
+      
+        <div> 
+            <p>{skillmessage}</p>
+            <div className="row-skill">
+              <div 
+                className="bgrid-quarters s-bgrid-thirds"> 
+                  {skills} 
+              </div>
           </div>
         </div>
       </div>

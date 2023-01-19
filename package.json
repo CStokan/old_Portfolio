@@ -7,9 +7,11 @@
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.0",
     "react": "^17.0.1",
+    "react-circular-progressbar": "^2.1.0",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
     "react-typewriter": "^0.4.1",
+    "scramblejs": "^1.0.5",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -35,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
   }
 }

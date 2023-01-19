@@ -1,6 +1,11 @@
 import React from "react";
 import TypeWriter from "react-typewriter";
 
+// TypeWriter is a component from react-typewriter
+// This gives the type writer effect to the text
+
+
+
 const Header = ({ data }) => {
   if (data) {
     var name = data.name;
@@ -17,6 +22,7 @@ const Header = ({ data }) => {
       );
     });
   }
+
 
   return (
     <header id="home">
@@ -68,7 +74,7 @@ const Header = ({ data }) => {
             <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
           </h1>
           <h3>
-            Based in {city}. <span>{occupation}</span>. {description}.
+            <span>{occupation}</span>
           </h3>
           <hr />
           <ul className="social">{networks}</ul>
