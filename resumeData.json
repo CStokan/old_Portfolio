@@ -1,0 +1,115 @@
+{
+  "main": {
+    "name": "Cooper Stokan",
+    "occupation": "Software Developer - Computer Enthusiast",
+    "image": "profilepic.jpg",
+    "bio": "I love coding, playing with Rubiks' Cubes, and most importantly having a good time. With my love of puzzles and computers, it was a no-brainer to pursue a career in the tech world.  Since then, I graduated top of my class and my professor gave me a position as a IT Security Analyst at his company.",
+    "contactmessage": "Get in touch with me!",
+    "email": "cooperstokan@hotmail.com",
+    "phone": "+(289)-893-1719",
+    "address": {
+      "city": "Whitby",
+      "province": "Ontario"
+    },
+    "resumedownload": "/public/pdf/CooperStokan-Resume.pdf",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/cooper-stokan-ab8128221/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/CStokan",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "My Technical Skills",
+    "education": [
+      {
+        "school": "Durham College",
+        "degree": "College Diploma, Computer Programming",
+        "graduated": "April 2022",
+        "description": "Graduated with First Class Honours - 4.87 GPA - Equivalent to an A+",
+        "description_1": "Some of the skills I aquired throughout this diploma include Web Development, Testing & Automation, Object Oriented Programming, Computer Systems, and Networking."
+      }
+    ],
+    "work": [
+      {
+        "company": "Ferro Technics Inc.",
+        "title": "IT Security Analyst",
+        "years": "May 2022 - November 2022",
+        "description": "I was responsible for colloborating with my team and clients by conducting vulnerability assesments, pen tests, and writing policies and procedures."
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "75"
+      },
+      {
+        "name": "Python",
+        "level": "85"
+      },
+      {
+        "name": "Git",
+        "level": "70"
+      },
+      {
+        "name": "Web Development",
+        "level": "85"
+      },
+      {
+        "name": "Automation/Testing",
+        "level": "80"
+      },
+      {
+        "name": "Pen Testing",
+        "level": "65"
+      },
+      {
+        "name": "SQL",
+        "level": "80"
+      },
+      {
+        "name": "JavaScript",
+        "level": "85"
+      },
+      {
+        "name": "JavaScript",
+        "level": "85"
+      },
+      {
+        "name": "Web Development",
+        "level": "80"
+      }
+      
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Chess (Python(Pygame))",
+        "category": "",
+        "image": "chess.jpg",
+        "url": "https://github.com/CStokan/PythonChess"
+      },
+      {
+        "title": "Durak Card Game(C# Winforms)",
+        "category": "",
+        "image": "durak.jpg",
+        "url": "https://github.com/CStokan/DurakFinalProject"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "It was a pleasure working with Cooper, he provided valuable insight while working on projects with him.",
+        "user": "Eric Mizzi"
+      }
+    ]
+  }
+}
