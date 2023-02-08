@@ -11,7 +11,7 @@
       "city": "Whitby",
       "province": "Ontario"
     },
-    "resumedownload": "/public/pdf/CooperStokan-Resume.pdf",
+    "resumedownload": "https://github.com/CStokan/Portfolio/blob/main/public/pdf/CooperStokan-Resume.pdf",
     "social": [
       {
         "name": "linkedin",
@@ -107,8 +107,8 @@
   "testimonials": {
     "testimonials": [
       {
-        "text": "It was a pleasure working with Cooper, he provided valuable insight while working on projects with him.",
-        "user": "Eric Mizzi"
+        "text": "A computer will do what you tell it to do, but that may be much different from what you had in mind",
+        "user": "Joseph Weizenbaum"
       }
     ]
   }
