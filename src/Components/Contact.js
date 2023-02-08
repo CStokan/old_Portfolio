@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+// Email constants
 const Contact = ({ data }) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -17,6 +17,7 @@ const Contact = ({ data }) => {
     var contactMessage = data.contactmessage;
   }
 
+  // Submit form for email
   const submitForm = () => {
     window.open(
       `mailto:${contactEmail}?subject=${encodeURIComponent(
@@ -27,6 +28,7 @@ const Contact = ({ data }) => {
     );
   };
 
+  // Contact form
   return (
     <section id="contact">
       <div className="row section-head">

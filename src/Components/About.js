@@ -33,7 +33,7 @@ const About = ({ data }) => {
                 <span>{name}</span>
                 <br />
                 <span>
-                  {city} {province}
+                  {city}, {province}
                 </span>
                 <br />
                 <span>{phone}</span>
@@ -43,7 +43,7 @@ const About = ({ data }) => {
             </div>
             <div className="columns download">
               <p>
-                <a href={resumeDownload} className="button">
+                <a href={resumeDownload} download className="button">
                   <i className="fa fa-download"></i>Download Resume
                 </a>
               </p>

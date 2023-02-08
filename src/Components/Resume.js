@@ -6,6 +6,7 @@ const Resume = ({ data }) => {
   if (data) {
     var skillmessage = data.skillmessage;
     var education = data.education.map(function (education) {
+      // Grabs education data and displays it
       return (
         <div key={education.school}>
           <h3>{education.school}</h3>
@@ -13,10 +14,11 @@ const Resume = ({ data }) => {
             {education.degree} <span>&bull;</span>
             <em className="date">{education.graduated}</em>
           </p>
-          <p>{education.description}</p>
+          <p>{education.description}<br/>{education.description_1}</p>
         </div>
       );
     });
+    // Grabs my work data and displays it
     var work = data.work.map(function (work) {
       return (
         <div key={work.company}>
@@ -25,11 +27,12 @@ const Resume = ({ data }) => {
             {work.title}
             <span>&bull;</span> <em className="date">{work.years}</em>
           </p>
-          <p>{work.description}</p>
+          <p>{work.description}<br/>{work.description_1}</p>
         </div>
         
       );
     });
+    // This is where my skills are displayed using  circular progress
     var skills = data.skills.map(function (skills) {
       var className = "bar-expand " + skills.name.toLowerCase();
       return (

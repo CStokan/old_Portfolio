@@ -28,7 +28,6 @@ const Portfolio = ({ data }) => {
       );
     });
   }
-
   return (
     <section id="portfolio">
       <div className="row">
