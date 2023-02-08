@@ -14,7 +14,7 @@ const App = () => {
   const [resumeData, setResumeData] = useState({});
 
   useEffect(() => {
-    fetch("/resumeData.json")
+    fetch("/Portfolio/resumeData.json")
       .then((res) => res.json())
       .then((data) => {
         setResumeData(data);
